@@ -16,7 +16,7 @@ const Sidebar = ({ activeTab, setActiveTab, isOpen }) => (
       <div className="bg-purple-600 p-2 rounded-lg shrink-0">
         <Shield className="w-6 h-6 text-white" />
       </div>
-      {isOpen && <span className="text-xl font-bold dark:text-white truncate">FraudShield</span>}
+      {isOpen && <span className="text-xl font-bold dark:text-white truncate">DevRate</span>}
     </div>
     <nav className="flex-1 px-4 space-y-2 mt-4">
       {navItems.map((item) => (
