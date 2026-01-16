@@ -3,7 +3,7 @@ import { Shield, BarChart3, Globe, AlertTriangle, Settings, FileText, Activity }
 
 const navItems = [
   { id: 'overview', label: 'Decision Overview', icon: BarChart3 },
-  { id: 'ip-analysis', label: 'IP Analysis', icon: Globe },
+  { id: 'ip-analysis', label: 'Rate Limiting Insights', icon: Globe },
   { id: 'abuse', label: 'Abuse & Penalty', icon: AlertTriangle },
   { id: 'config', label: 'Config & Control', icon: Settings },
   { id: 'logs', label: 'Decision Logs', icon: FileText },
